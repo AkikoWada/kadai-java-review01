@@ -16,5 +16,7 @@ public class MethodOverLoadSample {
     public static void add(double num1,double num2) {
         System.out.println("double型２つの加算結果："+(num1+num2));
     }
-
+    public static void add(double num1,int num2) {
+        System.out.println("int型２つの加算結果："+(num1+num2));
+    }
 }
